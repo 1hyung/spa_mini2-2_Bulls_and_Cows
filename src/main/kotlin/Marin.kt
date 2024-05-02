@@ -12,4 +12,5 @@ class Marin(
     fun zealotDamage(zealot: Zealot) {
         hp - zealot.atp
     }
+
 }

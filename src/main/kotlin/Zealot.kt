@@ -1,3 +1,4 @@
+/*
 import org.example.Zealot
 
 class Zealot(
@@ -15,4 +16,4 @@ class Zealot(
     fun zerglingDamage(zergling: Zergling) {
         hp - zergling.atp
     }
-}
+}*/

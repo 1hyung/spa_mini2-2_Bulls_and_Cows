@@ -1,4 +1,4 @@
-import kotlin.random.Random
+/*
 //참고코드
 fun main(args: Array<String>) {
     fun makeAnswer(): String {
@@ -50,3 +50,4 @@ fun main(args: Array<String>) {
         if (hint == "정답입니다!") break
     }
 }
+*/

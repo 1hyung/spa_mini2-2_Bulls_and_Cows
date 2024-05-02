@@ -31,6 +31,7 @@ package org.example
     zergling.test(something: String)
     zealot.test(something: String)
 }*/
+/*
 
 fun main() { // 특정값만 내가 원하는 대로 넣을 수 있음! , 다리 없는 사자 내가 원하는 다리를 추가할 수 있음!
 
@@ -108,3 +109,4 @@ fun main() {
 
 
 
+*/
