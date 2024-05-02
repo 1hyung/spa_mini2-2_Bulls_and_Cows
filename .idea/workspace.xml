@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53e7d988-041c-497e-9870-a9bdf38b9929" name="Changes" comment="Feat: &lt;숫자야구6&gt; 시도하는 횟수를 저장하는 변수를 추가. ()는 if문의 조건을 정의하는데 사용, 조건식이 true일 때만 {} 내의 코드 실행&#10;              () 조건을 지정하는데 사용, {} 조건이 참일 떄 실행할 코드 블록을 정의하는데 사용     ">
+    <list default="true" id="53e7d988-041c-497e-9870-a9bdf38b9929" name="Changes" comment="Feat: &lt;숫자야구7&gt; 코드 뼈대를 참고해서 fun start로 변경">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/Sparta_Kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/Sparta_Kotlin.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/org/example/Marin.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/org/example/Marin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/org/example/Unit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/org/example/Unit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/org/example/Zealot.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/org/example/Zealot.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/org/example/Zergling.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/org/example/Zergling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Bulls_and_Cows.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Bulls_and_Cows.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Marin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Marin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/NumberBaseball.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Prac_NumberBaseball.kt" afterDir="false" />
@@ -152,7 +154,7 @@
       <updated>1714627573252</updated>
       <workItem from="1714627574329" duration="56000" />
       <workItem from="1714627718198" duration="9108000" />
-      <workItem from="1714658209409" duration="6466000" />
+      <workItem from="1714658209409" duration="7146000" />
     </task>
     <task id="LOCAL-00001" summary="참고코드">
       <option name="closed" value="true" />
@@ -250,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714666713141</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Feat: &lt;숫자야구7&gt; 코드 뼈대를 참고해서 fun start로 변경">
+      <option name="closed" value="true" />
+      <created>1714667045654</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714667045654</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +288,8 @@
     <MESSAGE value="Feat: &lt;숫자야구4&gt; when식을 사용해서 조건에 따라 다른 값을 반환한다. 순서대로 스트라이크가 3개일 때, 스트라이크가 0개 초과, 볼이 0개 초과일 때, 스트라이크만 있을 때, 볼만 있을 때, 이 경우가 아닌 경우 Nothing을 출력한다." />
     <MESSAGE value="Feat: &lt;숫자야구5&gt; 게임이 시작됨을 알리는 메시지를 출력하고. makeAnswer 함수를 호출하여 정답을 생선한다. readLine으로 숫자를 입력받고 만약 isInputValid이 아니라면 &quot;올바르지 않은 입력값입니다&quot;를 출력하고 이어서한다. 정답이라면 break하고 빠져나온다." />
     <MESSAGE value="Feat: &lt;숫자야구6&gt; 시도하는 횟수를 저장하는 변수를 추가. ()는 if문의 조건을 정의하는데 사용, 조건식이 true일 때만 {} 내의 코드 실행&#10;              () 조건을 지정하는데 사용, {} 조건이 참일 떄 실행할 코드 블록을 정의하는데 사용     " />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: &lt;숫자야구6&gt; 시도하는 횟수를 저장하는 변수를 추가. ()는 if문의 조건을 정의하는데 사용, 조건식이 true일 때만 {} 내의 코드 실행&#10;              () 조건을 지정하는데 사용, {} 조건이 참일 떄 실행할 코드 블록을 정의하는데 사용     " />
+    <MESSAGE value="Feat: &lt;숫자야구7&gt; 코드 뼈대를 참고해서 fun start로 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: &lt;숫자야구7&gt; 코드 뼈대를 참고해서 fun start로 변경" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

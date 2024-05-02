@@ -31,30 +31,55 @@ fun main(args: Array<String>) {
     }
 
     fun start() {
-        println("< 게임을 시작합니다 >")
-        val answer = makeAnswer()
-        var tries = 0 // 시도한 횟수 저장하는 변수 추가
-
+        println("환영합니다! 원하시는 번호를 입력해주세요!")
         while (true) {
-            tries++ // 시도할 때마다 시도 횟수 증가
-            print("숫자를 입력하세요 ")
+            println("1. 게임 시작하기  2. 게임 기록 보기  3. 종료하기")
+            print("입력: ")
             val input = readLine() ?: ""
+            when (input) {
+                "1" -> {
+                    println("< 게임을 시작합니다 >")
+                    val answer = makeAnswer()
+                    var tries = 0 // 시도한 횟수 저장하는 변수 추가
 
-            if (!isInputValid(input)) {
-                println("올바르지 않은 입력값입니다")
-                continue
-            }
+                    while (true) {
+                        tries++ // 시도할 때마다 시도 횟수 증가
+                        print("숫자를 입력하세요 ")
+                        val input = readLine() ?: ""
 
-            val hint = getHint(answer, input)
-            println(hint)
+                        if (!isInputValid(input)) {
+                            println("올바르지 않은 입력값입니다")
+                            continue
+                        }
 
-            if (hint == "정답입니다!") {
-                println("시도한 횟수: $tries") // 정답을 맞추면 시도 횟수 출력
-                break
-                //()는 if문의 조건을 정의하는데 사용, 조건식이 true일 때만 {} 내의 코드 실행
-                //() 조건을 지정하는데 사용, {} 조건이 참일 떄 실행할 코드 블록을 정의하는데 사용
+                        val hint = getHint(answer, input)
+                        println(hint)
+
+                        if (hint == "정답입니다!") {
+                            println("시도한 횟수: $tries") // 정답을 맞추면 시도 횟수 출력
+                            break
+                            //()는 if문의 조건을 정의하는데 사용, 조건식이 true일 때만 {} 내의 코드 실행
+                            //() 조건을 지정하는데 사용, {} 조건이 참일 떄 실행할 코드 블록을 정의하는데 사용
+                        }
+                    }
+                }
+
+                "2" -> {
+                    println("게임 기록 보기")
+                }
+
+                "3" -> {
+                    println("게임을 종료합니다")
+                    return
+                }
+
+                else -> {
+                    println("올바른 번호를 입력해주세요")
+                }
             }
         }
+
+
     }
     start()
 }
