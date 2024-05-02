@@ -31,6 +31,7 @@ package org.example
     zergling.test(something: String)
     zealot.test(something: String)
 }*/
+
 fun main() {
     val unit = Unit("유닛")
     val zealot = Zealot("질럿")
@@ -59,13 +60,13 @@ fun main() {
     jimRaynor.attack()
 
 
-    unit.heal("Heal") // defensivePower에 문자열 전달
-    marin.heal("Heal") // defensivePower에 문자열 전달
-    zergling.heal("Heal") // defensivePower에 문자열 전달
-    zealot.heal("Heal") // defensivePower에 문자열 전달
-    fenix.heal("Heal") // defensivePower에 문자열 전달
-    devouringOne.heal("Heal") // defensivePower에 문자열 전달
-    jimRaynor.heal("Heal") // defensivePower에 문자열 전달
+    println(unit.heal("Heal")) // defensivePower에 문자열 전달
+    println(marin.heal("Heal"))
+    println(zergling.heal("Heal"))
+    println(zealot.heal("Heal"))
+    println(fenix.heal("Heal"))
+    println(devouringOne.heal("Heal"))
+    println(jimRaynor.heal("Heal"))
 
 
     unit.test("someString")
@@ -75,6 +76,4 @@ fun main() {
     fenix.test("someString")
     devouringOne.test("someString")
     jimRaynor.test("someString")
-
-
 }
