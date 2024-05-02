@@ -77,6 +77,7 @@ fun main(args: Array<String>) {
                         gameLogs.forEach { println(it) }
                     }
                 }
+                //"2"를 선택했을 떄 선택구현 3번 처럼 3번째 게임 : 시도 횟수 - 12 구현 못했음.
 
                 "3" -> {
                     println("게임을 종료합니다")
