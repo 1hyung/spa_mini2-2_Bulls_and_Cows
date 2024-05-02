@@ -20,4 +20,13 @@ fun main() {
             if (answer[i] == guess[i]) strikes++
             else if (answer.contains(guess[i])) balls++
         }
-}
+
+        return when {
+            strikes == 3 -> "정답입니다!"
+            strikes > 0 && balls > 0 -> "$strikes 스트라이크 $balls 볼"
+            strikes > 0 -> "$strikes 스트라이크"
+            balls > 0 -> "$balls 볼"
+            else -> "Nothing"
+        }
+    }
+

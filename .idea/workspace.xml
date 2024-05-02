@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53e7d988-041c-497e-9870-a9bdf38b9929" name="Changes" comment="Feat: &lt;숫자야구1&gt; 1부터 9까지 배열을 이용해서 할당하고 변수 digits의 mutableList를 shuffle한다. 앞의 세 개의 숫자를 추출하고, 이를 문자열로 변환하여 반환한다.">
+    <list default="true" id="53e7d988-041c-497e-9870-a9bdf38b9929" name="Changes" comment="Feat: &lt;숫자야구3&gt; 스트라이크 횟수와 볼 횟수를 기록할 변수 선언, 유저가 입력한 수를 저장할 변수 선언, 몇번만에 게임을 끝내는지 기록할 카운트 선언 및 초기화를 설정합니다. 정답 문자열의 인덱스를 순회하면서 추측과 같은 위치에 있는 숫자를 비교하여 스트라이크인지 확인한다. 동일하게 볼인지 확인한다.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/Sparta_Kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/Sparta_Kotlin.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/org/example/Marin.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/org/example/Marin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/org/example/Unit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/org/example/Unit.class" afterDir="false" />
@@ -153,7 +154,7 @@
       <updated>1714627573252</updated>
       <workItem from="1714627574329" duration="56000" />
       <workItem from="1714627718198" duration="9108000" />
-      <workItem from="1714658209409" duration="4670000" />
+      <workItem from="1714658209409" duration="5316000" />
     </task>
     <task id="LOCAL-00001" summary="참고코드">
       <option name="closed" value="true" />
@@ -211,7 +212,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714664740479</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Feat: &lt;숫자야구2&gt; 순서대로 입력값이 세 자리가 아닐 경우, 숫자로만 이루어져 있지 않을 경우, 중복된 숫자가 있는지 확인하고 아니라면 유효하지 않으므로 'false'를 반환합니다. 모든 유효성을 통과했으면 'true'를 반환한다.">
+      <option name="closed" value="true" />
+      <created>1714664963131</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714664963131</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Feat: &lt;숫자야구3&gt; 스트라이크 횟수와 볼 횟수를 기록할 변수 선언, 유저가 입력한 수를 저장할 변수 선언, 몇번만에 게임을 끝내는지 기록할 카운트 선언 및 초기화를 설정합니다. 정답 문자열의 인덱스를 순회하면서 추측과 같은 위치에 있는 숫자를 비교하여 스트라이크인지 확인한다. 동일하게 볼인지 확인한다.">
+      <option name="closed" value="true" />
+      <created>1714665129866</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714665129866</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +251,9 @@
     <MESSAGE value="brach 수정" />
     <MESSAGE value="test" />
     <MESSAGE value="Feat: &lt;숫자야구1&gt; 1부터 9까지 배열을 이용해서 할당하고 변수 digits의 mutableList를 shuffle한다. 앞의 세 개의 숫자를 추출하고, 이를 문자열로 변환하여 반환한다." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: &lt;숫자야구1&gt; 1부터 9까지 배열을 이용해서 할당하고 변수 digits의 mutableList를 shuffle한다. 앞의 세 개의 숫자를 추출하고, 이를 문자열로 변환하여 반환한다." />
+    <MESSAGE value="Feat: &lt;숫자야구2&gt; 순서대로 입력값이 세 자리가 아닐 경우, 숫자로만 이루어져 있지 않을 경우, 중복된 숫자가 있는지 확인하고 아니라면 유효하지 않으므로 'false'를 반환합니다. 모든 유효성을 통과했으면 'true'를 반환한다." />
+    <MESSAGE value="Feat: &lt;숫자야구3&gt; 스트라이크 횟수와 볼 횟수를 기록할 변수 선언, 유저가 입력한 수를 저장할 변수 선언, 몇번만에 게임을 끝내는지 기록할 카운트 선언 및 초기화를 설정합니다. 정답 문자열의 인덱스를 순회하면서 추측과 같은 위치에 있는 숫자를 비교하여 스트라이크인지 확인한다. 동일하게 볼인지 확인한다." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: &lt;숫자야구3&gt; 스트라이크 횟수와 볼 횟수를 기록할 변수 선언, 유저가 입력한 수를 저장할 변수 선언, 몇번만에 게임을 끝내는지 기록할 카운트 선언 및 초기화를 설정합니다. 정답 문자열의 인덱스를 순회하면서 추측과 같은 위치에 있는 숫자를 비교하여 스트라이크인지 확인한다. 동일하게 볼인지 확인한다." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
