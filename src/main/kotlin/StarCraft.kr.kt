@@ -32,7 +32,7 @@ package org.example
     zealot.test(something: String)
 }*/
 
-fun main() {
+fun main() { // 특정값만 내가 원하는 대로 넣을 수 있음! , 다리 없는 사자 내가 원하는 다리를 추가할 수 있음!
     val unit = Unit("유닛")
     val zealot = Zealot("질럿")
     val zergling = Zergling("저글링")

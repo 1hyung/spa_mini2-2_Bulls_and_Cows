@@ -59,7 +59,7 @@ open class Unit(
     }
 
     open fun test(something: String) { // 입력 받고 반환하지 않는 것
-        println("입력받은 값: $something")
+//        println("입력받은 값: $something")
     }
 }
 
