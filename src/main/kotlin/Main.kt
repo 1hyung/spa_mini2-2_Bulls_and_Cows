@@ -14,7 +14,7 @@ package org.example
         println("i = $i")
     }
 }*/
-fun main() {
+/*fun main() {
     var bird = Bird("새")
     var chicken = Chicken("닭")
     var sparrow = Sparrow("참새")
@@ -45,6 +45,12 @@ class Sparrow(name: String) : Bird(name) {
 
 class Pigeon(name: String) : Bird(name) {
 
+}*/
+
+fun main() {
+    val zergling = Zergling(10,1)
+    val marin = Marin(5, 3)
+    val zealot = Zealot(4, 2)
+
+    zergling.marinDamage(marin
 }
-
-

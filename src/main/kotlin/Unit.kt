@@ -58,9 +58,9 @@ open class Unit(
         println("체력 회복: $defensivePower")
     }
 
-    open fun test(something: String): Int {
-        println("입력받은 값: $something")
-        return 5
+    open fun test(something: String) { // 입력 받고 반환하지 않는 것
+//        println("입력받은 값: $something")
+
     }
 }
 
