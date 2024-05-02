@@ -77,3 +77,29 @@ fun main() { // 특정값만 내가 원하는 대로 넣을 수 있음! , 다리
     devouringOne.test("someString")
     jimRaynor.test("someString")
 }
+
+//main
+//val a = 객체생성()
+객체끼리 관계를 지어주고싶다?
+        객체끼리 연관을 짓고싶다
+-> 매개변수로 객체를 넘긴다.
+        A -> 회원
+        B -> 게시판
+
+        특정 회원이 작성한 게시판
+        fun eat(food: String) {
+            print("나는 ${food} 먹는다.")
+        }
+class Food {
+    var foodName: String = "음식이름"
+
+    fun giveFood() : String{
+        return foodName
+    }
+}
+
+fun main() {
+    val zergling = Zergling(   1,3,4)
+    val food = Food( )
+
+}
