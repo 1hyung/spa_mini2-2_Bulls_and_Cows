@@ -1,4 +1,7 @@
 fun main(args: Array<String>) {
+    // 2. 게임 기록 보기 위한 변수 작성
+    val gameLogs = mutableListOf<String>()
+
     fun makeAnswer(): String {
         val digits = mutableListOf(1, 2, 3, 4, 5, 6, 7, 8, 9)
         digits.shuffle()
@@ -55,6 +58,8 @@ fun main(args: Array<String>) {
                         val hint = getHint(answer, input)
                         println(hint)
 
+                        gameLogs.add(hint)
+
                         if (hint == "정답입니다!") {
                             println("시도한 횟수: $tries") // 정답을 맞추면 시도 횟수 출력
                             break
@@ -65,7 +70,12 @@ fun main(args: Array<String>) {
                 }
 
                 "2" -> {
-                    println("게임 기록 보기")
+                    println("< 게임 기록을 보여줍니다 >")
+                    if (gameLogs.isEmpty()) {
+                        println("게임 기록이 없습니다.")
+                    } else {
+                        gameLogs.forEach { println(it) }
+                    }
                 }
 
                 "3" -> {
