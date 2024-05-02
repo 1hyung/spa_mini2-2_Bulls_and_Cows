@@ -33,6 +33,7 @@ package org.example
 }*/
 
 fun main() { // 특정값만 내가 원하는 대로 넣을 수 있음! , 다리 없는 사자 내가 원하는 다리를 추가할 수 있음!
+
     val unit = Unit("유닛")
     val zealot = Zealot("질럿")
     val zergling = Zergling("저글링")
@@ -60,13 +61,13 @@ fun main() { // 특정값만 내가 원하는 대로 넣을 수 있음! , 다리
     jimRaynor.attack()
 
 
-    println(unit.heal("Heal")) // defensivePower에 문자열 전달
-    println(marin.heal("Heal"))
-    println(zergling.heal("Heal"))
-    println(zealot.heal("Heal"))
-    println(fenix.heal("Heal"))
-    println(devouringOne.heal("Heal"))
-    println(jimRaynor.heal("Heal"))
+    unit.heal("Heal") // defensivePower에 문자열 전달
+    marin.heal("Heal") // defensivePower에 문자열 전달
+    zergling.heal("Heal") // defensivePower에 문자열 전달
+    zealot.heal("Heal") // defensivePower에 문자열 전달
+    fenix.heal("Heal") // defensivePower에 문자열 전달
+    devouringOne.heal("Heal") // defensivePower에 문자열 전달
+    jimRaynor.heal("Heal") // defensivePower에 문자열 전달
 
 
     unit.test("someString")
@@ -103,3 +104,6 @@ fun main() {
     val food = Food( )
 
 }
+
+
+
