@@ -1,8 +1,8 @@
 fun main() {
-    fun makeAnswer() {
-        val numbers = mutableListOf(1..9)
-        numbers.shuffle()
-        return numbers.take(3).joinToString(" ")
+    fun makeAnswer(): String {
+        val digits = mutableListOf(1..9)
+        digits.shuffle()
+        return digits.take(3).joinToString(" ")
     }
 
     fun isInputValid(input: String): Boolean {
@@ -29,4 +29,24 @@ fun main() {
             else -> "Nothing"
         }
     }
+
+    println("< 게임을 시작합니다 >")
+    val answer = makeAnswer()
+
+    while (true) {
+        print("숫자를 입력하세요: ")
+        val input = readLine() ?: ""
+
+        if (!isInputValid(input)) {
+            println("올바르지 않은 입력값입니다")
+            continue
+        }
+
+        val hint = getHint(answer, input)
+        println(hint)
+
+        if (hint == "정답입니다!") break
+    }
+}
+
 
