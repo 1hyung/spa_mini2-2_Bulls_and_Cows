@@ -11,4 +11,13 @@ fun main() {
         if (input.toSet().size != 3) return false
         return true
     }
+
+    fun getHint(answer: String, guess: String): String {
+        var strikes = 0
+        var balls = 0
+
+        for (i in answer.indices) {
+            if (answer[i] == guess[i]) strikes++
+            else if (answer.contains(guess[i])) balls++
+        }
 }
