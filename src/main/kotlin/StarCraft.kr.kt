@@ -37,6 +37,10 @@ fun main() {
     val zergling = Zergling("저글링")
     val marin = Marin("마린")
 
+    val fenix = Zealot("피닉스", 100, 14, 14, 6)
+    val devouringOne = Zergling("디보어링원", 70, 6, 6, 38)
+    val jimRaynor = Marin("짐 레이너", 100, 10, 10, 10)
+
     unit.attack()
     marin.attack()
     zergling.attack()
