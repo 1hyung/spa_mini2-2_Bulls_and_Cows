@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sparta_Kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/Sparta_Kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sparta_Kotlin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Sparta_Kotlin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sparta_Kotlin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Sparta_Kotlin.test.iml" />
+    </modules>
+  </component>
+</project>
