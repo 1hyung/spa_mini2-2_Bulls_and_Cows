@@ -45,19 +45,36 @@ fun main() {
     marin.attack()
     zergling.attack()
     zealot.attack()
+    fenix.attack()
+    devouringOne.attack()
+    jimRaynor.attack()
+
 
     unit.hold()
     marin.hold()
     zergling.hold()
     zealot.hold()
+    fenix.attack()
+    devouringOne.attack()
+    jimRaynor.attack()
 
-    unit.heal("somePower") // defensivePower에 문자열 전달
-    marin.heal("somePower") // defensivePower에 문자열 전달
-    zergling.heal("somePower") // defensivePower에 문자열 전달
-    zealot.heal("somePower") // defensivePower에 문자열 전달
+
+    unit.heal("Heal") // defensivePower에 문자열 전달
+    marin.heal("Heal") // defensivePower에 문자열 전달
+    zergling.heal("Heal") // defensivePower에 문자열 전달
+    zealot.heal("Heal") // defensivePower에 문자열 전달
+    fenix.heal("Heal") // defensivePower에 문자열 전달
+    devouringOne.heal("Heal") // defensivePower에 문자열 전달
+    jimRaynor.heal("Heal") // defensivePower에 문자열 전달
+
 
     unit.test("someString")
     marin.test("someString")
     zergling.test("someString")
     zealot.test("someString")
+    fenix.test("someString")
+    devouringOne.test("someString")
+    jimRaynor.test("someString")
+
+
 }
