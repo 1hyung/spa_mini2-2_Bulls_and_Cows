@@ -30,28 +30,31 @@ fun main(args: Array<String>) {
         }
     }
 
-    println("< 게임을 시작합니다 >")
-    val answer = makeAnswer()
-    var tries = 0 // 시도한 횟수 저장하는 변수 추가
+    fun start() {
+        println("< 게임을 시작합니다 >")
+        val answer = makeAnswer()
+        var tries = 0 // 시도한 횟수 저장하는 변수 추가
 
-    while (true) {
-        tries++ // 시도할 때마다 시도 횟수 증가
-        print("숫자를 입력하세요: ")
-        val input = readLine() ?: ""
+        while (true) {
+            tries++ // 시도할 때마다 시도 횟수 증가
+            print("숫자를 입력하세요 ")
+            val input = readLine() ?: ""
 
-        if (!isInputValid(input)) {
-            println("올바르지 않은 입력값입니다")
-            continue
-        }
+            if (!isInputValid(input)) {
+                println("올바르지 않은 입력값입니다")
+                continue
+            }
 
-        val hint = getHint(answer, input)
-        println(hint)
+            val hint = getHint(answer, input)
+            println(hint)
 
-        if (hint == "정답입니다!") {
-            println("시도한 횟수: $tries") // 정답을 맞추면 시도 횟수 출력
-            break
-            //()는 if문의 조건을 정의하는데 사용, 조건식이 true일 때만 {} 내의 코드 실행
-            //() 조건을 지정하는데 사용, {} 조건이 참일 떄 실행할 코드 블록을 정의하는데 사용
+            if (hint == "정답입니다!") {
+                println("시도한 횟수: $tries") // 정답을 맞추면 시도 횟수 출력
+                break
+                //()는 if문의 조건을 정의하는데 사용, 조건식이 true일 때만 {} 내의 코드 실행
+                //() 조건을 지정하는데 사용, {} 조건이 참일 떄 실행할 코드 블록을 정의하는데 사용
+            }
         }
     }
+    start()
 }
