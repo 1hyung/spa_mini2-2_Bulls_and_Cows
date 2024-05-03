@@ -501,3 +501,11 @@ var tries = 0 // 시도한 횟수 저장하는 변수 추가
 
 </div>
 </details>
+
+## 수정할 내용
+### Class 적용
+
+## 환경설정<br/>
+Language : Kotlin<br/>
+IDLE : IntelliJ community<br/>
+JDK : corretto-21 <br/>
